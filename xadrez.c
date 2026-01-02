@@ -5,28 +5,46 @@
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+   //Declaração de constantes para o numero de casas
+    const int MOV_BISPO = 5;
+    const int MOV_TORRE = 5;
+    const int MOV_RAINHA = 8;
+     
+    //Variavel de controle dos laços
+    int i;
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    //====================BISPO===================//
+    //Movimento do bipo: diagonal superior direito (Cima + Direita)
+    printf("Movimentacao do Bispo:\n");
+    for (i = 1; i <= MOV_BISPO; I++) {
+        printf("cima\n");
+        printf("direita\n");
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    }
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+printf("\n");
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+//======================TORRE========================//
+//Movimento da torre: apenas para a direita
+printf("Movimentacao da torre:\n");
+for (i = 1; i <= MOV_TORRE; i++) {
+ printf("Direita\n");
 
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
-
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
-
-    return 0;
 }
+
+printf("\n");
+
+
+//====================RAINHA==========================//
+//Movimento da rainha: apenas para a esquerda 
+printf("Movimentacao da rainha:\n");
+for (i = 1; i<= MOV_RAINHA; i++) {
+  printf("Esquerda\n")
+
+}
+
+//Finaliza o programa
+return 0;
+
+}
+
