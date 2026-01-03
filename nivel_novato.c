@@ -16,7 +16,7 @@
     //====================BISPO===================//
     //Movimento do bipo: diagonal superior direito (Cima + Direita)
     printf("Movimentacao do Bispo:\n");
-    for (i = 1; i <= MOV_BISPO; I++) {
+    for (i = 1; i <= MOV_BISPO; i++) {
         printf("cima\n");
         printf("direita\n");
 
@@ -39,7 +39,7 @@ printf("\n");
 //Movimento da rainha: apenas para a esquerda 
 printf("Movimentacao da rainha:\n");
 for (i = 1; i<= MOV_RAINHA; i++) {
-  printf("Esquerda\n")
+  printf("Esquerda\n");
 
 }
 
